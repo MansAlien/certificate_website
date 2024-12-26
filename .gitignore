@@ -8,6 +8,8 @@ __pycache__/
 # Django-related
 db.sqlite3
 media/
+uploads/
+data/
 
 # Node.js-related
 node_modules/
