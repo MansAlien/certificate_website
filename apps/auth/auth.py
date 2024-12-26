@@ -9,7 +9,7 @@ def login_get():
         fh.Div(
             fh.H1("Login", style={"margin-top": "20%"}),
             login_form(),
-            style={"max-width": "400px", "margin": "auto"}
+            style={"max-width": "400px", "margin": "auto", "padding": "20px"}
         )
     )
 
@@ -19,7 +19,7 @@ def signup_get():
         fh.Div(
             fh.H1("Sign Up", style={"margin-top": "20%"}),
             signup_form(),
-            style={"max-width": "400px", "margin": "auto"}
+            style={"max-width": "400px", "margin": "auto", "padding": "20px"}
         )
     )
 
